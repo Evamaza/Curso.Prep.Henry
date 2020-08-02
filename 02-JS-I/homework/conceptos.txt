@@ -1,0 +1,57 @@
+VARIABLES:
+ Forma de almacenar un valor que será utilizado mas tarde. Se utiliza la palabra clave `var`(espacio)nombre asignado. Además podemos dar valor a ese nombre asignado con el signo `=`.
+Hay tres formas de designar una variable:
+
+`var` Esta es una _palabra clave_ genérica para "variable".
+
+`let` Asigna una variable parecida a `var` pero con un comportamiento un poco diferente
+
+`const` Variable que no se podrá cambiar. Esto es la abreviatura de "constante".
+
+STRINGS:
+es un tipo de dato de javascript. 
+Son textos que se definen entre comillas simples o dobles.
+
+FUNCIONES (argumentos, `return`):
+Tenemos un conjunto de variables Y  necesitamos funciones para calcularlas, cambiarlas, hacer algo con ellas.
+Comenzará con la palabra clave `function`(espacio) nombre de la función () {todo nuestro código a ejecutar}
+
+function logHola() {
+    console.log('hola!');
+}
+
+logHola();
+
+ARGUMENTOS
+Agregar una variable a los apréntesis. Toman valor cuando invocás la función.
+
+function logHola(nombre) {
+    console.log('Hola, ' + nombre);
+}
+
+logHola('Martin');
+
+Podemos agregar múltiples argumentos colocando coma entre ellos.
+
+function sumarDosNumeros(a, b) {
+  var suma = a + b;
+  return suma;
+}
+
+sumarDosNumeros(1, 5); // 6
+
+`return`
+
+Una funcion una vez ejecutada nos devuelva la infomación.
+se retoma una sola vez. Una vez colocado 'return' lo que se encuentra debajo de él no existe, termina ahí.
+
+DECLARACIONES 'if'
+Son condicionales. Si lo que está dentro del paréntis es verdad o 'true' ejecuta lo que está entre las llaves. O falso o 'false'
+
+if () {
+}
+
+Valores booleanos (`true`, `false`)
+Básicamente significa verdadero o falso; activar o desactivar.
+Los valores posibles en JS son 'true' o 'false'
+
